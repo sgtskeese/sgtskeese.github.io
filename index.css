@@ -43,12 +43,12 @@
 
 #yes_no {
 	/* YES */
-	/* color: #07ba0a ;
-	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c; */
+	color: #07ba0a ;
+	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c;
 	
 	/* NO */
-	color: #ea0000 ;
-	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c;
+	/* color: #ea0000 ;
+	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c; */
 	
 	font-family: Tahoma, Geneva, sans-serif ;
 	font-size: 7vw ;
