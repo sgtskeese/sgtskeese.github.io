@@ -1,0 +1,12 @@
+/* Highlight "Home" for being on this page */
+#home {
+	color: #427bd6 ;
+}
+
+/* Image of board games */
+#games {
+	padding-top: 15px ;
+	display: block ;
+	width: 100% ;
+	opacity: 0.75 ;
+}
