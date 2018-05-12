@@ -3,12 +3,14 @@
 	<head>
 		<link href="main.css" rel="stylesheet">
 		<link href="index.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Chicle' rel='stylesheet'>
 		<title>Daniel &amp; Jeremy's Saturday Board Games</title>
 	</head>
 	
 	<body>
 		<h1 class="tabs">
 			<a class="button" id="home" href="index.html">Home</a>
+			<a class="button" href="attend.html">Are You Coming?</a>
 			<a class="button" href="games.html">Games</a>
 			<a class="button" href="poll.html">Poll</a>
 			<a class="button" href="contact.html">Contact</a>
@@ -16,14 +18,25 @@
 		</h1>
 		
 		<!-- Picture of board games plus text -->
-		<img id="games" src="board_games.jpg" alt="Stacks of board games">
+		<div class="games_contain">
+			<img id="games" src="board_games.jpg" alt="Stacks of board games">
 		
-		<!-- <h2 id="intro">
-			Board Games at <br>
-			Daniel's or Jeremy's <br>
-			Saturdays @ 2 <br>
-		</h2> -->
-		
+			<p id="intro">
+				Board Games at <br>
+				Daniel's or Jeremy's <br>
+				Saturdays @ 2pm <br>
+			</p>
+			
+			<p id="happening">
+				Are board games happening this Saturday?
+			</p>
+			
+			<p id="yes_no">
+				NO
+			</p>
+			
+		</div>
+			
 	</body>
 
 </html>

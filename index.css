@@ -3,10 +3,59 @@
 	color: #427bd6 ;
 }
 
+.games_contain {
+	position: relative ;
+}
+
 /* Image of board games */
 #games {
 	padding-top: 15px ;
 	display: block ;
 	width: 100% ;
 	opacity: 0.75 ;
+	text-align: center ;
+}
+
+/* Text on board games image */
+#intro {
+	color: white ;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-size: 5vw ;
+	font-family: Chicle ;
+	position: absolute ;
+	text-align: center ;
+	top: 20% ;
+	left: 50% ;
+	transform: translate(-50%, -50%) ;
+}
+
+#happening {
+	color: white ;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-size: 4vw ;
+	font-weight: bold ;
+	position: absolute ;
+	text-align: center ;
+	top: 45% ;
+	left: 20% ;
+	transform: translate(-10%, -90%) ;
+}
+
+#yes_no {
+	/* YES */
+	/* color: #07ba0a ;
+	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c; */
+	
+	/* NO */
+	color: #ea0000 ;
+	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c;
+	
+	font-family: Tahoma, Geneva, sans-serif ;
+	font-size: 7vw ;
+	font-weight: 900 ;
+	position: absolute ;
+	text-align: center ;
+	top: 50% ;
+	left: 50% ;
+	transform: translate(-50%, -50%) ;
 }
