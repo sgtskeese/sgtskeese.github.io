@@ -19,11 +19,12 @@ body {
 	margin: auto;
 	position: relative ;
 	width: 100% ;
-	opacity: 0.70 ;
+	opacity: 0.80 ;
 	text-align: center ;
 }
 
-/* Text on board games image */
+/* Text on board games image 
+   "Board Games at Daniel's or Jeremy's Saturdays @ 2pm" */
 #intro {
 	color: white ;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
@@ -39,6 +40,7 @@ body {
 	transform: translate(-50%) ;
 }
 
+/* "Are board games happening this Saturday?" */
 #happening {
 	color: white ;
 	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c;
@@ -54,6 +56,7 @@ body {
 	transform: translate(-50%) ;
 }
 
+/* Yes or no */
 #yes_no {
 	/* YES */
 	color: #07ba0a ;
@@ -76,6 +79,7 @@ body {
 	transform: translate(-50%) ;
 }
 
+/* Location */
 #loc {
 	color: white ;
 	text-shadow: 1px 0 0 #4c4c4c, 0 -1px 0 #4c4c4c, 0 1px 0 #4c4c4c, -1px 0 0 #4c4c4c;
