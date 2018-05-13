@@ -3,6 +3,11 @@
 	color: #427bd6 ;
 }
 
+body {
+	margin: 0 ;
+	padding: 0 ;
+}
+
 .games_contain {
 	position: relative ;
 }
